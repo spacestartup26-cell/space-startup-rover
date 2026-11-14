@@ -2,7 +2,7 @@
 // Leave a value empty to keep its card marked "Coming soon".
 const PROJECT_LINKS = {
   youtube: "",
-  scratch: "",
+  scratch: "https://scratch.mit.edu/projects/1440061612",
   report: ""
 };
 
