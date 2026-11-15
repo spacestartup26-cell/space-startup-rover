@@ -25,3 +25,83 @@
 @media(max-width:760px){.site-header{flex-wrap:wrap;gap:16px;padding-block:18px}.header-branding{gap:18px}.spaceapps-logo-link{padding-left:16px}.spaceapps-logo{width:148px}.header-links{margin-left:auto}}
 @media(max-width:470px){.site-header{padding-block:15px}.header-branding{width:100%;justify-content:space-between;gap:12px}.spaceapps-logo-link{padding-left:12px}.spaceapps-logo{width:120px}}
 @media(max-width:360px){.header-branding{gap:8px}.spaceapps-logo{width:96px}}
+
+/* Readable supporting text across the public project pages. */
+body{font-size:16px}
+.site-header{flex-wrap:wrap}
+.brand span{font-size:14px}
+.header-links{font-size:14px}
+.eyebrow{font-size:12px;letter-spacing:1.6px}
+.hero{min-height:570px}
+.hero-image{width:78%;object-position:48% center}
+.hero-intro{font-size:18px;line-height:1.7;max-width:440px}
+.mission-tag{font-size:14px;line-height:1.7}
+.image-caption{font-size:12px;max-width:calc(100% - 48px);text-align:right}
+.section-top{align-items:flex-start;flex-wrap:wrap}
+.section-top h2{font-size:24px}
+.section-top>span{font-size:16px;line-height:1.6}
+.resource h3{font-size:21px;line-height:1.4}
+.resource>p{font-size:16px;line-height:1.7}
+.resource-number,.link-status{font-size:14px;line-height:1.6}
+.background-heading>p,.mission p{font-size:16px;line-height:1.8}
+.mission h3{font-size:23px}
+.mission-label,.mission-year{font-size:14px;line-height:1.6}
+.mission-label{min-height:45px}
+.lesson{font-size:15px;line-height:1.7}
+.mission-note{font-size:14px;line-height:1.7;max-width:1000px}
+.project-video-copy>p:last-of-type{font-size:16px;line-height:1.8;max-width:100%}
+.video-duration,.video-start small{font-size:14px;line-height:1.6}
+.video-start{font-size:18px}
+.visitor-grid span,.visitor-section .section-top>span{font-size:14px;line-height:1.6}
+.visitor-note{font-size:14px;line-height:1.7}
+.team-preview p:last-child{font-size:16px;line-height:1.8}
+.project-button{font-size:16px;white-space:normal}
+.review-form label{font-size:15px}
+.review-form input,.review-form select,.review-form textarea{font-size:16px}
+.form-note,.review-form #review-status{font-size:14px}
+.live-badge{font-size:12px;white-space:normal}
+.review-entry h4{font-size:18px}
+.review-meta,.review-kind,.team-reply strong{font-size:14px}
+.review-message,.team-reply,.empty-state{font-size:16px}
+.team-lead{font-size:18px}
+.member-role,.member-github{font-size:15px}
+.member-bio,.team-notice{font-size:16px}
+.site-footer{font-size:14px;flex-wrap:wrap}
+.site-footer strong{font-size:16px}
+.closing-label{font-size:12px}
+@media(min-width:761px){
+  .hero-content{padding-bottom:76px}
+  .hero-intro{font-size:20px}
+  .eyebrow{font-size:13px}
+  .background-heading>p,.mission p,.project-video-copy>p:last-of-type,.team-preview p:last-child,.review-message,.team-reply,.empty-state,.member-bio{font-size:18px}
+  .resource>p{font-size:18px}
+  .mission p{min-height:130px}
+}
+@media(max-width:1000px){
+  .hero-image{width:85%}
+  .header-branding{flex-wrap:wrap}
+}
+@media(max-width:760px){
+  .hero{min-height:0}
+  .hero-content{padding-bottom:76px}
+  .hero-image{width:100%;object-position:43% center}
+  .hero-intro{max-width:420px}
+  .mission-tag{max-width:100%}
+  .mission p{min-height:0}
+  .mission-label{min-height:0}
+  .resource{padding:22px}
+  .header-links{font-size:14px}
+}
+@media(max-width:470px){
+  .hero-intro{font-size:17px}
+  .hero .eyebrow{font-size:11px;letter-spacing:1.3px}
+  .hero .mission-tag{font-size:13px}
+  .hero .image-caption{font-size:12px}
+  .visitor-grid>div{padding:16px 9px}
+  .visitor-grid span{font-size:13px}
+  .visitor-note{font-size:13px}
+  .video-start{font-size:16px;gap:10px}
+  .video-start small{font-size:13px}
+  .header-links a:first-child{max-width:none}
+  .team-lead{font-size:17px}
+}
