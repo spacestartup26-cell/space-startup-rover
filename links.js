@@ -26,3 +26,4 @@ Object.entries(PROJECT_LINKS).forEach(([key, value]) => {
   link.classList.replace("pending", "available");
   document.getElementById(`${key}-status`).textContent = labels[key];
 });
+
