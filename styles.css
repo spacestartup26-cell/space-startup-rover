@@ -19,3 +19,9 @@
 .mission-grid>.mission-lander{grid-column:1/-1;border-left:0;border-top:1px solid var(--line);padding:27px 23px}.mission-grid>.mission-lander p{min-height:0}
 @media(max-width:760px){.mission-grid>.mission-lander{padding:24px 22px}}
 @media(max-width:600px){.mission-grid{grid-template-columns:1fr}.mission-grid>.mission{padding:24px 0;border-left:0}.mission-grid>.mission+.mission{border-top:1px solid var(--line)}.mission-grid>.mission p{min-height:0}}
+
+/* Public team and challenge branding. */
+.header-branding{display:flex;align-items:center;gap:22px;min-width:0}.spaceapps-logo-link{display:flex;align-items:center;flex:none;padding-left:20px;border-left:1px solid var(--line);text-decoration:none}.spaceapps-logo{display:block;width:168px;height:auto}
+@media(max-width:760px){.site-header{flex-wrap:wrap;gap:16px;padding-block:18px}.header-branding{gap:18px}.spaceapps-logo-link{padding-left:16px}.spaceapps-logo{width:148px}.header-links{margin-left:auto}}
+@media(max-width:470px){.site-header{padding-block:15px}.header-branding{width:100%;justify-content:space-between;gap:12px}.spaceapps-logo-link{padding-left:12px}.spaceapps-logo{width:120px}}
+@media(max-width:360px){.header-branding{gap:8px}.spaceapps-logo{width:96px}}
