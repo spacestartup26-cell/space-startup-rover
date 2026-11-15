@@ -1,15 +1,15 @@
-// Add your three public links here, between the quotation marks, then republish.
-// Leave a value empty to keep its card marked "Coming soon".
+// Optional public link overrides. Republish after changing a value.
+// Empty values keep the links configured in index.html.
 const PROJECT_LINKS = {
   youtube: "",
-  scratch: "https://scratch.mit.edu/projects/1440061612",
-  report: ""
+  scratch: "https://scratch.mit.edu/projects/1440501370",
+  report: "https://spacestartup26-cell.github.io/space-startup-rover/assets/mars%20rover%20story.docx.pdf"
 };
 
 const labels = {
   youtube: "Watch on YouTube",
   scratch: "Play on Scratch",
-  report: "Read the project report"
+  report: "PDF · 4 pages"
 };
 
 Object.entries(PROJECT_LINKS).forEach(([key, value]) => {
